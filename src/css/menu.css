@@ -1,0 +1,56 @@
+#menu{
+	border: 1px solid black;
+	background-color: white;
+}
+
+#menu h4{
+	padding: 5px;
+	color: black;
+	background-color: white;
+}
+
+#suggested{
+	margin-top: 60px;
+}
+
+.menuBox{
+	padding: 10px;
+}
+
+ul{
+	padding: 0;
+	padding-bottom: 15px;
+	border-bottom: 1px solid black;
+}
+
+ul li{
+	display: inline;
+	margin-left: 5px;
+	margin-right: 5px;
+
+}
+
+#includeButton{
+	padding-right: 10px;
+	border-right: 1px solid black;
+	cursor: pointer;
+}
+
+#includeButton:hover{
+	color: blue;
+	font-weight: bold;
+}
+
+#excludeButton{
+	padding-left: 10px;
+	cursor: pointer;
+}
+
+#excludeButton:hover{
+	color:red;
+	font-weight: bold;
+}
+
+#chooseInclude{
+	display: none;
+}
